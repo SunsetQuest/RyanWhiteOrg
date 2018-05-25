@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ryanwhiteorg:
+    image: ${DOCKER_REGISTRY}ryanwhiteorg
+    build:
+      context: .
+      dockerfile: RyanWhiteOrg\Dockerfile
