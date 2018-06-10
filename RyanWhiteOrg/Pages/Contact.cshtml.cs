@@ -12,7 +12,7 @@ namespace RyanWhiteOrg.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Some Contact Information...";
         }
     }
 }
